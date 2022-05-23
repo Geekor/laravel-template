@@ -32,7 +32,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+
+            "Geekor\\BackendMaster\\Tests\\": "vendor/geekor/laravel-backend-master/tests/"
         }
     },
     "scripts": {

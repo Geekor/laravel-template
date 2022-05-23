@@ -12,10 +12,7 @@
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
         <testsuite name="GeekorBackendMasterFeature">
-            <directory suffix="Test.php">./_packages/geekor/laravel-backend-master/tests/Feature</directory>
-        </testsuite>
-        <testsuite name="GeekorBackendMasterUnit">
-            <directory suffix="Test.php">./_packages/geekor/laravel-backend-master/tests/Unit</directory>
+            <directory suffix="Test.php">./vendor/geekor/laravel-backend-master/tests/Feature</directory>
         </testsuite>
     </testsuites>
     <coverage processUncoveredFiles="true">
